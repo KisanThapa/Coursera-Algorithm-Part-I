@@ -41,6 +41,7 @@ public class QuickFindAlgorithm {
             for (int i = 0; i < size; i++) {
                 id[i] = i;
             }
+
         }
 
         public boolean isConnected(int p, int q) {
@@ -55,6 +56,7 @@ public class QuickFindAlgorithm {
                 if (id[i] == pid)
                     id[i] = qid;
             }
+
         }
 
         public void printArray() {
@@ -63,5 +65,7 @@ public class QuickFindAlgorithm {
             }
             System.out.println();
         }
+
     }
+
 }
